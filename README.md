@@ -6,6 +6,9 @@ Plataforma de Doação de Roupas
 Equipe:
 Ederval Gomes de Novaes Neto - RA 850645
 Ian de Sousa Pereira - RA 850687
+Carlos Roberto - RA 853313
+Kilber Fernando - RA 853134
+
 
 Sobre o Produto
 A Plataforma de Doação de Roupas é um site criado para aproximar quem quer doar roupas de quem realmente precisa delas, seja uma pessoa ou uma instituição. Com ela, você pode:
