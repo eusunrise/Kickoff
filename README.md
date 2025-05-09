@@ -21,6 +21,7 @@ Navegar por uma interface simples e fácil de usar, tanto para quem está doando
 A ideia é incentivar a solidariedade, dar uma nova vida às roupas paradas no armário e fornecer alimentos para quem está passando por dificuldades.
 
 Historias com as personas e criterios de aceitação:
+
 ![historia 1](https://github.com/user-attachments/assets/7966f4ce-071e-493d-a957-d4d96969a9a9)
 ![Historia 2](https://github.com/user-attachments/assets/b49d0efb-c92b-42a3-9b1d-46bdb1c69fb0)
 ![Historia 3](https://github.com/user-attachments/assets/4a5b03b7-cad2-4134-8201-1f784518ca64)
