@@ -4,10 +4,10 @@ Projeto análise e projeto de software
 Plataforma de Doação de Roupas e Alimentos
 
 Equipe:
-Ederval Gomes de Novaes Neto - RA 850645
-Ian de Sousa Pereira - RA 850687
-Carlos Roberto - RA 853313
-Kilber Fernando - RA 853134
+Ederval Gomes de Novaes Neto - RA 850645;
+Ian de Sousa Pereira - RA 850687;
+Carlos Roberto - RA 853313;
+Kilber Fernando - RA 853134;
 
 trello:
 https://trello.com/invite/b/681928d2ab3dcad6c32bb540/ATTI7029eddf7a120e5a90e9b2160fc945b77070940C/analise-e-projeto-de-software
