@@ -1,13 +1,23 @@
-<!-- core/templates/core/login.html -->
-{% extends 'core/base.html' %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Plataforma de Doações</title>
+</head>
+<body>
+    <h1>Login</h1>
 
-{% block title %}Login{% endblock %}
+    <form method="post" action="{% url 'login' %}">
+        {% csrf_token %}
+        <label for="username">Usuário:</label><br>
+        <input type="text" name="username" id="username" required><br><br>
 
-{% block content %}
-<h2>Entrar</h2>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Entrar</button>
-</form>
-{% endblock %}
+        <label for="senha">Senha:</label><br>
+        <input type="password" name="senha" id="senha" required><br><br>
+
+        <button type="submit">Entrar</button>
+    </form>
+
+    <p>Não tem uma conta? <a href="{% url 'cadastro' %}">Cadastre-se aqui</a></p>
+</body>
+</html>
