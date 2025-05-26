@@ -1,0 +1,20 @@
+<!-- core/templates/core/home.html -->
+{% extends 'core/base.html' %}
+
+{% block title %}Início{% endblock %}
+
+{% block content %}
+<h2>Doações Recentes</h2>
+
+<ul>
+    {% for doacao in doacoes %}
+        <li>
+            <strong>{{ doacao.get_categoria_display }}</strong> -
+            {{ doacao.descricao }}<br>
+            <small>Por {{ doacao.usuario.username }} em {{ doacao.data_doacao|date:"d/m/Y H:i" }}</small>
+        </li>
+    {% empty %}
+        <li>Nenhuma doação encontrada.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

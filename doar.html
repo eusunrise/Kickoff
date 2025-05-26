@@ -1,0 +1,19 @@
+<!-- core/templates/core/doar.html -->
+{% extends 'core/base.html' %}
+
+{% block title %}Fazer Doação{% endblock %}
+
+{% block content %}
+<h2>Fazer uma Doação</h2>
+<form method="post">
+    {% csrf_token %}
+    <label for="categoria">Categoria:</label>
+    <select name="categoria" id="categoria" required>
+        <option value="roupa">Roupa</option>
+        <option value="alimento">Alimento</option>
+    </select>
+    <label for="descricao">Descrição:</label>
+    <textarea name="descricao" id="descricao" required></textarea>
+    <button type="submit">Doar</button>
+</form>
+{% endblock %}
