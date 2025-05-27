@@ -13,8 +13,19 @@ class Servidor(BaseHTTPRequestHandler):
             self.enviar_arquivo("cadastro.html")
         elif self.path == "/home":
             self.enviar_arquivo("home.html")
+        elif self.path.startswith("/static/"):
+            try:
+                with open(self.path[1:], 'rb') as file:
+                    self.send_response(200)
+                    if self.path.endswith(".css"):
+                        self.send_header('Content-type', 'text/css')
+                    self.end_headers()
+                    self.wfile.write(file.read())
+            except FileNotFoundError:
+                self.send_error(404, "Arquivo estático não encontrado")
         else:
             self.send_error(404, "Página não encontrada")
+
 
 
 
