@@ -20,6 +20,8 @@ Mapear pontos de entrega e retirada, ajudando a organizar melhor a logística e 
 Navegar por uma interface simples e fácil de usar, tanto para quem está doando quanto para quem vai receber.
 A ideia é incentivar a solidariedade, dar uma nova vida às roupas paradas no armário e fornecer alimentos para quem está passando por dificuldades.
 
+Protótipo no figma: https://www.figma.com/design/xfniR8DHGFXN84TsEbbLVJ/trabalho-software-teste-1?node-id=0-1&t=sFDeHsj68DyNyaBE-1
+
 Historias com as personas e criterios de aceitação:
 
 ![historia 1](https://github.com/user-attachments/assets/7966f4ce-071e-493d-a957-d4d96969a9a9)
