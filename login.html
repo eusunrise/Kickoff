@@ -1,18 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
   <div class="container">
-    <h2>Login</h2>
+    <h1 class="logo">🔐 Meu App</h1>
+    <h2>Bem-vindo(a)</h2>
+    <p class="subtitle">Entre com suas credenciais para continuar</p>
+    
     <form method="POST" action="/login">
-      <input type="text" name="usuario" placeholder="Usuário" required>
-      <input type="password" name="senha" placeholder="Senha" required>
+      <div class="input-group">
+        <input type="text" name="usuario" placeholder="Usuário" required>
+      </div>
+      <div class="input-group">
+        <input type="password" name="senha" placeholder="Senha" required>
+      </div>
       <input type="submit" value="Entrar">
     </form>
+
+    <div class="links">
+      <a href="/cadastro">Criar uma conta</a>
+      <a href="#" onclick="alert('Entre em contato com o suporte.')">Esqueci minha senha</a>
+    </div>
   </div>
 </body>
 </html>
