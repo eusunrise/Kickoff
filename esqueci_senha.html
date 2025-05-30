@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recuperar Senha</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="logo">🔐 DoaçãoSolidária</h1>
+    <h2>Esqueceu sua senha?</h2>
+    <p class="subtitle">Informe seu e-mail para receber instruções</p>
+
+    <form method="POST" action="/recuperar-senha">
+      <div class="input-group">
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+      </div>
+      <input type="submit" value="Enviar instruções" />
+    </form>
+
+    <div class="links">
+      <a href="/login">Voltar para o login</a>
+    </div>
+  </div>
+</body>
+</html>
